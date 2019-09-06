@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Krzysztof Wiatrzyk
+    tagline: ICT Student
+    avatar: krzwiatrzyk.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: krzwiatrzyk@protonmail.com 
+    phone: 731 704 717
+    website: krzwiatrzyk.github.io #do not add http://
+    linkedin: krzysztof-wiatrzyk-6538a514a
+    github: krzwiatrzyk
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Polish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: German
+        level: Basic
+
+    interests:
+      - item: Video games
+        link:
+
+      - item: Motorcycles
+        link:
+
+      - item: Advertisement
+        link:
+        
+career-profile:
+    title: Career Profile
+    summary: |
+      I am close to achieve bachelor degree on ICT studies on AGH university. 
+      I have work experience in networking area. I am interested in web development (full stack) and cloud computing (K8s, OpenShift, AWS).   
+
+education:
+    - degree: Bachelor in Information and Communication Technology (ICT)
+      university: The AGH University of Science and Technology in Krakow 
+      time: 2015 - now
+      details: |
+         The ICT studies offers a wide spread IT knowledge in telecommunication and programming areas.
+
+          - C++, Java, Python programming
+          - configuration of network devices (Cisco, Juniper)
+          - web development (HTML5, CSS, JS) with databases (MySQL)
+          - Unix operation systems
+          - digital signal processing in matlab
+          - Other ares: Unity, Wireless
+          
+
+
+experiences:
+    - role: Network Consulting Engineer
+      time: 2018 - 2019
+      company: Cisco Systems, Krakow
+      details: |
+        In the early beginning of my internship I was involved in preparation of web application based on Vue.js, Python, MongoDB and Docker technologies.
+        I was in Data Center team, I was dealing there with project documentation and laboratories preparation. 
+
+          - working with Nexus devices
+          - working with ACI technology
+          - Docker, Python, MongoDB development
+          - maintaning lab
+   
+
+    - role: Young technical specialist
+      time: 2017
+      company: Sevenet, Krakow
+      details: |
+        As a support engineer I was helping clients with network problems on daily basis. I was also working with network delivery projects.
+
+          - support of network devices
+          - mounting switches, routers and access points
+          - configuration of network devices
+          - exchanging broken parts of devices
+
+
+projects:
+    title: Projects
+    intro: >
+      My personal and university projects.
+
+    assignments:
+      - title: Python Chess game
+        link: "#"
+        tagline: "A python chess game for 2 players with usage of socket library and connectivity over TCP/UDP and multicast usage to find server."
+
+publications:
+    title: Certifacates
+    intro: |
+      My personal achieved certificates.
+    papers:
+      - title: CCNA
+        authors: Cisco Systems
+        conference: Krakow, 2018
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python 
+        level: 70%
+
+      - name: Cisco IOS
+        level: 70%
+
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
