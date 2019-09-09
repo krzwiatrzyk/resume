@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am close to achieve bachelor degree on ICT studies at AGH university. 
+      I am young and ambitious nearly bachelor of AGH university. I would like to broaden my horizons in IT and fulfill my dream of becoming an IT professional.
       I have work experience in networking area. I am interested in web development (full stack) and cloud computing (K8s, OpenShift, AWS).   
 
 education:
@@ -63,7 +63,8 @@ education:
           - web development (HTML5, CSS, JS) with databases (MySQL)
           - Unix operation systems
           - digital signal processing in matlab
-          - Other areas: Unity, Wireless
+          - Fiber Optic networks
+          - Other areas suach as Unity, Wireless
           
 
 
@@ -102,7 +103,9 @@ projects:
       - title: Python Chess game
         link: "#"
         tagline: "A python chess game for 2 players with usage of socket library and connectivity over TCP/UDP and multicast usage to find server."
-
+      - title: Kelvz - Unity Game
+        link: "#"
+        tagline: "2D defense game with economical mechanics."
 publications:
     title: Certifacates
     intro: |
@@ -120,8 +123,17 @@ skills:
       - name: Python 
         level: 70%
 
-      - name: Cisco IOS
+      - name: Cisco IOS (networking)
         level: 70%
+
+      - name: Cloud Technologies (Docker, K8s)
+        level: 50%
+
+      - name: Automation (Ansible)
+        level: 40%
+
+      - name: Web Development (HTML5, CSS, JS)
+        level: 30%
 
 
 
