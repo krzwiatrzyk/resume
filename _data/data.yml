@@ -74,7 +74,7 @@ experiences:
       company: Cisco Systems, Krakow
       details: |
         In the early beginning of my internship I was involved in preparation of web application based on Vue.js, Python, MongoDB and Docker technologies.
-        Afterwards I was in Data Center team, I was dealing there with project documentation and test pods preparation in laboratories. 
+        Afterwards I was in Data Center team, dealing there with project documentation and test pods preparation in laboratories. 
 
           - working with Nexus devices
           - working with ACI technology
@@ -127,6 +127,9 @@ skills:
         level: 70%
 
       - name: Cloud Technologies (Docker, K8s)
+        level: 50%
+        
+      - name: Linux administration
         level: 50%
 
       - name: Automation (Ansible)
