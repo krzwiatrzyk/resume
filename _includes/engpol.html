@@ -1,20 +1,12 @@
 <div class="container">
-    <br>
-    <div class="row">
-        {% if site.data.data.sidebar.language == "eng" %}
-        <div class="col text-center">
-            <button type="button" class="btn btn-dark">English</button>
-        </div>
-        <div class="col text-center">
-            <button type="button" class="btn btn-secondary">Polish</button>
-        </div>
-        {% else %}
-        <div class="col center-block">
-            <button type="button" class="btn btn-secondary">Angielski</button>
-        </div>
-        <div class="col center-block">
-            <button type="button" class="btn btn-dark ">Polski</button>
-        </div>
-        {% endif %}
-    </div>
+    <br> {% if site.data.data.sidebar.language == "eng" %}
+
+    <button type="button" class="btn btn-primary ">English</button>
+
+    <button type="button" class="btn btn-info pull-right">Polish</button> {% else %}
+
+    <button type="button" class="btn btn-info">Angielski</button>
+
+    <button type="button" class="btn btn-primary pull-right">Polski</button> {% endif %}
+
 </div>
