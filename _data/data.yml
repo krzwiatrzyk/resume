@@ -41,20 +41,20 @@ sidebar:
       - item: Motorcycles
         link:
 
-      - item: Advertisement
+      - item: Video editing (new!)
         link:
 
         
 career-profile:
     title: Career Profile
     summary: |
-      I am young and ambitious nearly bachelor of AGH university. I would like to broaden my horizons in IT and fulfill my dream of becoming an IT professional.
-      I have work experience in networking area. I am interested in web development (full stack) and cloud computing (K8s, OpenShift, AWS).   
+      I am young and ambitious bachelor of AGH university. I would like to broaden my horizons in IT and fulfill my dream of becoming an IT professional.
+      I am interested  and cloud computing (Docker, Kubernetes, AWS).   
 
 education:
     - degree: Bachelor in Information and Communication Technology (ICT)
       university: The AGH University of Science and Technology in Krakow 
-      time: 2015 - now
+      time: 2015 - 2020
       details: |
          The ICT studies offers a wide spread IT knowledge in telecommunication and programming areas.
 
@@ -66,9 +66,14 @@ education:
           - Fiber Optic networks
           - Other areas suach as Unity, Wireless
           
-
-
 experiences:
+    - role: DevOps Engineer
+      time: 2020 - 2021
+      company: Samsung Electronics, Krakow
+      details: |
+            As a DevOps engineer my task was to improve upstreamversion of Kubernetes in the field of resource management(CPU,  Memory,  NUMA  nodes).  
+            It  required  writing  newfeatures  in  Golang  programming  language  and  alsoinclined  range  of  other  tasks  such  as:  complex  codereviews,  code  version  control  (rebases,  merges,  cherry-picks,  etc.),  working  with  Kubernetes  community,  writingunit  and  e2e  tests,  preparing  test  machines  (tweakingLinux for Kubernetes, installing Kubernetes from scratch), researching new fields of improvement.
+
     - role: Network Consulting Engineer
       time: 2018 - 2019
       company: Cisco Systems, Krakow
@@ -94,24 +99,28 @@ experiences:
           - exchanging broken parts of devices
 
 
-projects:
-    title: Projects
-    intro: >
-      My personal and university projects.
+# projects:
+#     title: Projects
+#     intro: >
+#       My personal and university projects.
 
-    assignments:
-      - title: Python Chess game
-        link: "#"
-        tagline: "A python chess game for 2 players with usage of socket library and connectivity over TCP/UDP and multicast usage to find server."
-      - title: Kelvz - Unity Game
-        link: "#"
-        tagline: "2D defense game with economical mechanics."
+#     assignments:
+#       - title: Python Chess game
+#         link: "#"
+#         tagline: "A python chess game for 2 players with usage of socket library and connectivity over TCP/UDP and multicast usage to find server."
+#       - title: Kelvz - Unity Game
+#         link: "#"
+#         tagline: "2D defense game with economical mechanics."
+
 publications:
     title: Certifacates
     intro: |
-      My personal achieved certificates.
+      Personal achieved certificates.
     papers:
-      - title: CCNA
+      - title: CKA - Certified Kubernetes Administrator 
+        authors: Linux Foundation
+        conference: Krakow, 2020
+      - title: CCNA Routing and Switching
         authors: Cisco Systems
         conference: Krakow, 2018
 
@@ -120,25 +129,32 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python 
+      - name: Playing games
+        level: 100%
+    
+      - name: Kubernetes
+        level: 90%
+        
+      - name: Docker
         level: 70%
+        
+      - name: Golang
+        level: 70%
+        
+      - name: Python 
+        level: 50%
 
       - name: Cisco IOS (networking)
-        level: 70%
-
-      - name: Cloud Technologies (Docker, K8s)
-        level: 50%
+        level: 30%
         
       - name: Linux administration
-        level: 50%
-
-      - name: Automation (Ansible)
-        level: 40%
-
-      - name: Web Development (HTML5, CSS, JS)
         level: 30%
 
+      - name: Automation (Ansible)
+        level: 30%
 
+      - name: Web Development (HTML5, CSS, JS)
+        level: 10%
 
 footer: >
     <br>
